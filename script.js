@@ -5,7 +5,7 @@ function BMI (weight,height) {
 }
 console.log (BMI(20,20))
 
-function status (BMI) {
+function status (BMI) 
     if (BMI < 18.5) {
         return "لديك نقص في الوزن"
     }
@@ -18,6 +18,7 @@ function status (BMI) {
 
     }
     
+    
     function calculate () {
         let weight = document.getElementById ('weight').value
         let height = document.getElementById ('height').value
@@ -28,9 +29,10 @@ function status (BMI) {
         let div = document.getElementById('result')
 
         div.innerText = BMI + "==" + desc
+        }
 
     
 
 
 
-}
+
